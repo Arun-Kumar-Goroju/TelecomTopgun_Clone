@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Prepaid Compact Fibre Voucher",
+    "days": "7 days recharge",
+    "speed": "20Mbps download",
+    "price": "99"
+  },
+  {
+    "id": 2,
+    "title": "Prepaid Compact Fibre Voucher",
+    "days": "14 days recharge",
+    "speed": "20Mbps download",
+    "price": "180"
+  },
+  {
+    "id": 3,
+    "title": "Prepaid Compact Fibre Voucher",
+    "days": "30 days recharge",
+    "speed": "20Mbps download",
+    "price": "349"
+  },
+  {
+    "id": 4,
+    "title": "Prepaid Compact Fibre Voucher",
+    "days": "7 days recharge",
+    "speed": "50Mbps download",
+    "price": "199"
+  },
+  {
+    "id": 5,
+    "title": "Prepaid Compact Fibre Voucher",
+    "days": "14 days recharge",
+    "speed": "50Mbps download",
+    "price": "379"
+  },
+  {
+    "id": 6,
+    "title": "Prepaid Compact Fibre Voucher",
+    "days": "30 days recharge",
+    "speed": "50Mbps download",
+    "price": "700"
+  }
+]
