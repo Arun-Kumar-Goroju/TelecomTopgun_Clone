@@ -29,8 +29,8 @@ function Navbar() {
                 <div className="hidden md:flex md:flex-wrap md:items-start md:gap-4 text-[#005288]">
 
                     <div className="flex w-[88px] flex-col items-center gap-[10px]">
-                        <Image src="/SelfService.png" alt="Self service" width={30} height={30} />
-                        <span className="text-sm font-bold">Self service</span>
+                        <Image src="/Vector.png" alt="Search" width={30} height={30} />
+                        <span className="text-sm font-bold">Search</span>
                     </div>
 
                     <div className="flex w-[88px] flex-col items-center gap-[10px]">
