@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "type": "20/10",
+    "price": "R54",
+    "validity": "3 days",
+    "speed": "20/10 Mbps",
+    "downloadSpeed": "20Mbps"
+  },
+  {
+    "id": 2,
+    "type": "20/10",
+    "price": "R79",
+    "validity": "3 days",
+    "speed": "20/10 Mbps",
+    "downloadSpeed": "25Mbps"
+  },
+  {
+    "id": 3,
+    "type": "20/10",
+    "price": "R99",
+    "validity": "7 days",
+    "speed": "20/10 Mbps",
+    "downloadSpeed": "20Mbps"
+  },
+  {
+    "id": 4,
+    "type": "20/10",
+    "price": "R139",
+    "validity": "7 days",
+    "speed": "20/10 Mbps",
+    "downloadSpeed": "25Mbps"
+  },
+  {
+    "id": 5,
+    "type": "20/10",
+    "price": "R180",
+    "validity": "14 days",
+    "speed": "20/10 Mbps",
+    "downloadSpeed": "20Mbps"
+  },
+  {
+    "id": 6,
+    "type": "20/10",
+    "price": "R259",
+    "validity": "14 days",
+    "speed": "20/10 Mbps",
+    "downloadSpeed": "25Mbps"
+  },
+  {
+    "id": 7,
+    "type": "20/10",
+    "price": "R349",
+    "validity": "30 days",
+    "speed": "20/10 Mbps",
+    "downloadSpeed": "20Mbps"
+  },
+  {
+    "id": 8,
+    "type": "20/10",
+    "price": "R499",
+    "validity": "30 days",
+    "speed": "20/10 Mbps",
+    "downloadSpeed": "25Mbps"
+  },
+  {
+    "id": 9,
+    "type": "50/25",
+    "price": "R79",
+    "validity": "3 days",
+    "speed": "50/25 Mbps",
+    "downloadSpeed": "25Mbps"
+  },
+  {
+    "id": 10,
+    "type": "50/25",
+    "price": "R110",
+    "validity": "3 days",
+    "speed": "50/25 Mbps",
+    "downloadSpeed": "50Mbps"
+  },
+  {
+    "id": 11,
+    "type": "50/25",
+    "price": "R139",
+    "validity": "7 days",
+    "speed": "50/25 Mbps",
+    "downloadSpeed": "25Mbps"
+  },
+  {
+    "id": 12,
+    "type": "50/25",
+    "price": "R199",
+    "validity": "7 days",
+    "speed": "50/25 Mbps",
+    "downloadSpeed": "50Mbps"
+  },
+  {
+    "id": 13,
+    "type": "50/25",
+    "price": "R259",
+    "validity": "14 days",
+    "speed": "50/25 Mbps",
+    "downloadSpeed": "25Mbps"
+  },
+  {
+    "id": 14,
+    "type": "50/25",
+    "price": "R379",
+    "validity": "14 days",
+    "speed": "50/25 Mbps",
+    "downloadSpeed": "50Mbps"
+  },
+  {
+    "id": 15,
+    "type": "50/25",
+    "price": "R499",
+    "validity": "30 days",
+    "speed": "50/25 Mbps",
+    "downloadSpeed": "25Mbps"
+  },
+  {
+    "id": 16,
+    "type": "50/25",
+    "price": "R700",
+    "validity": "30 days",
+    "speed": "50/25 Mbps",
+    "downloadSpeed": "50Mbps"
+  },
+  {
+    "id": 17,
+    "type": "express",
+    "price": "R110",
+    "validity": "3 days",
+    "speed": "Express Fibre",
+    "downloadSpeed": "50Mbps"
+  },
+  {
+    "id": 18,
+    "type": "express",
+    "price": "R188",
+    "validity": "7 days",
+    "speed": "Express Fibre",
+    "downloadSpeed": "50Mbps"
+  },
+  {
+    "id": 19,
+    "type": "express",
+    "price": "R549",
+    "validity": "30 days",
+    "speed": "Express Fibre",
+    "downloadSpeed": "50Mbps"
+  }
+]
