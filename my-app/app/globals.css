@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Degular Display";
+  src: url("/fonts/DegularDisplay-Bold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
