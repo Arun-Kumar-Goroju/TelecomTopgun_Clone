@@ -9,7 +9,7 @@ export default function Comp6() {
         items-center
         justify-center
         gap-[40px]
-        bg-gray-100
+        bg-white
         px-6
         py-10
 
@@ -19,11 +19,12 @@ export default function Comp6() {
         lg:py-0
       "
     >
-      {/* Image - Left */}
+     
       <div
         className="
           flex
           w-full
+          min-w-0
           max-w-[655px]
           justify-center
           lg:h-[392px]
@@ -34,16 +35,19 @@ export default function Comp6() {
           alt="Image"
           className="
             h-auto
+            h-[404px]
             w-full
             max-w-[655px]
             object-contain
             opacity-100
-            lg:h-[392px]
+            rounded-[20px]
+
+            lg:h-[404px]
           "
         />
       </div>
 
-      {/* Content - Right */}
+     
       <div
         className="
           flex
@@ -61,15 +65,15 @@ export default function Comp6() {
           className="
             w-full
             font-black
-            text-[32px]
-            leading-[40px]
+            text-[20px]
+            leading-[20px]
             text-[#005288]
 
             md:text-[36px]
             md:leading-[44px]
 
-            lg:text-[40px]
-            lg:leading-[48px]
+            lg:text-[20px]
+            lg:leading-[20px]
           "
         >
           Start by checking your coverage
@@ -80,7 +84,7 @@ export default function Comp6() {
             w-full
             font-normal
             text-[14px]
-            leading-[22px]
+            leading-[20px]
             text-[#005288]
 
             lg:text-base
@@ -102,37 +106,17 @@ export default function Comp6() {
           className="
             flex
             h-[44px]
-            w-full
+            w-[160px]
             max-w-[336px]
             flex-row
             gap-[16px]
           "
         >
-          <button
-            className="
-              h-[44px]
-              flex-1
-              rounded-md
-              bg-green-500
-              text-white
-            "
-          >
+          <button className="h-[44px] w-[160px] bg-[#91E200] flex-1 rounded-md  text-[#005288] font-bold">
             Coverage check
           </button>
 
-          <button
-            className="
-              h-[44px]
-              flex-1
-              rounded-md
-              border
-              border-[#005288]
-              bg-white
-              text-[#005288]
-            "
-          >
-            View details
-          </button>
+          
         </div>
       </div>
     </section>

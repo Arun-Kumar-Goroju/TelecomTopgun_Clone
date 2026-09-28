@@ -62,7 +62,7 @@ export default function Comp4() {
             lg:px-10
             lg:pt-10
             lg:pb-8
-            xl:h-[534px]
+            xl:h-[634px]
             xl:w-[1370px]
             xl:max-w-[1370px]
             xl:px-[40px]
@@ -70,7 +70,7 @@ export default function Comp4() {
             xl:pb-[24px]
           "
         >
-          {/* Background image */}
+          
           <img
             src="/bgimage.png"
             alt=""
@@ -85,7 +85,7 @@ export default function Comp4() {
             "
           />
 
-          {/* Top text */}
+          
           <div
             className="
               relative
@@ -107,7 +107,7 @@ export default function Comp4() {
               xl:gap-0
             "
           >
-            {/* Heading */}
+            
             <div
               className="
                 w-full
@@ -139,12 +139,13 @@ export default function Comp4() {
               </h2>
             </div>
 
-            {/* Description */}
+           
             <div
               className="
                 w-full
                 md:w-[45%]
                 xl:w-[560px]
+                
               "
             >
               <p
@@ -159,6 +160,7 @@ export default function Comp4() {
                   sm:leading-[16px]
                   xl:text-[12px]
                   xl:leading-[15px]
+                  absolute left-[70%]
                 "
               >
                 Experience tailored solutions with flexible
@@ -170,7 +172,7 @@ export default function Comp4() {
             </div>
           </div>
 
-          {/* Cards */}
+          
           <div
             className="
               relative
@@ -194,6 +196,7 @@ export default function Comp4() {
               xl:max-w-[1322px]
               xl:px-[24px]
               xl:py-[32px]
+              translate-y-4
             "
           >
             <div
@@ -227,7 +230,7 @@ export default function Comp4() {
                     }
                   `}
                 >
-                  {/* Card Image */}
+                  
                   <img
                     src={card.icon}
                     alt={card.title}
@@ -239,7 +242,6 @@ export default function Comp4() {
                     "
                   />
 
-                  {/* Card Heading */}
                   <h3
                     className="
                       m-0
@@ -255,7 +257,7 @@ export default function Comp4() {
                     {card.title}
                   </h3>
 
-                  {/* Card Description */}
+                  
                   <p
                     className="
                       m-0

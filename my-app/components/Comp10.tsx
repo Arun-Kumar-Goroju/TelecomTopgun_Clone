@@ -1,70 +1,60 @@
 export default function Comp10() {
   return (
-    <section className="w-full bg-white px-4 py-8 sm:px-6 md:px-8 lg:px-10 lg:py-12">
-      <div className="mx-auto w-full max-w-[1370px]">
+    <section className="w-full bg-white px-4 py-8 sm:px-6 md:px-8 lg:px-10 lg:py-9">
+      <div className="mx-auto w-full max-w-[710px]">
 
         
-        {/* BLUE CARD */}
-        
-
         <div
           className="
             flex
             w-full
             flex-col
             overflow-hidden
-            rounded-[8px]
+            rounded-[3px]
             bg-[#0099FF]
 
-            lg:h-[533px]
+            lg:h-[277px]
             lg:flex-row
-            lg:gap-[24px]
           "
         >
 
           
-          {/* LEFT CONTENT */}
-          
-
           <div
             className="
               flex
               w-full
               flex-col
               px-6
-              py-8
+              py-7
 
-              sm:px-8
-              sm:py-10
-
-              lg:h-[533px]
-              lg:w-[673px]
+              lg:h-[277px]
+              lg:w-[430px]
               lg:shrink-0
-              lg:px-[48px]
-              lg:py-[40px]
+              lg:px-[27px]
+              lg:py-[27px]
             "
           >
 
-            {/* HEADER */}
+           
             <div
               className="
                 w-full
-                lg:h-[128px]
-                lg:w-[569px]
+                lg:h-[72px]
+                lg:w-[330px]
               "
             >
               <h2
                 className="
                   m-0
-                  text-[36px]
+                  text-[27px]
                   font-black
                   leading-[1.02]
-                  tracking-[-1px]
+                  tracking-[-0.8px]
                   text-white
 
-                  sm:text-[42px]
+                  sm:text-[29px]
 
-                  lg:text-[48px]
+                  lg:text-[30px]
                   lg:leading-[1.02]
                 "
               >
@@ -74,27 +64,24 @@ export default function Comp10() {
               </h2>
             </div>
 
-
-            {/* DESCRIPTION */}
+            
             <div
               className="
-                mt-6
+                mt-4
                 w-full
-                max-w-[390px]
-
-                lg:mt-[0px]
+                max-w-[270px]
               "
             >
               <p
                 className="
                   m-0
-                  text-[12px]
+                  text-[10px]
                   font-medium
-                  leading-[16px]
+                  leading-[13px]
                   text-white
 
-                  sm:text-[13px]
-                  sm:leading-[17px]
+                  sm:text-[11px]
+                  sm:leading-[14px]
                 "
               >
                 Follow a DIY video, download forms, and binge a
@@ -102,15 +89,14 @@ export default function Comp10() {
               </p>
             </div>
 
-
-            {/* PRICE */}
-            <div className="mt-5 flex flex-col">
+            
+            <div className="mt-3 flex flex-col">
 
               <span
                 className="
-                  text-[11px]
+                  text-[9px]
                   font-medium
-                  leading-[14px]
+                  leading-[11px]
                   text-white
                 "
               >
@@ -119,11 +105,11 @@ export default function Comp10() {
 
               <span
                 className="
-                  mt-[2px]
-                  text-[42px]
+                  mt-[1px]
+                  text-[30px]
                   font-black
-                  leading-[42px]
-                  tracking-[-1px]
+                  leading-[30px]
+                  tracking-[-0.7px]
                   text-white
                 "
               >
@@ -133,9 +119,9 @@ export default function Comp10() {
               <span
                 className="
                   mt-[1px]
-                  text-[9px]
+                  text-[7px]
                   font-bold
-                  leading-[11px]
+                  leading-[9px]
                   text-white
                 "
               >
@@ -144,54 +130,45 @@ export default function Comp10() {
 
             </div>
 
-
-            {/* BUTTON */}
-            <div className="mt-6">
-
+           
+            <div className="mt-4">
               <button
                 type="button"
                 className="
-                  h-[40px]
-                  min-w-[78px]
-                  rounded-[4px]
+                  h-[28px]
+                  min-w-[83px]
+                  rounded-[3px]
                   bg-[#8BE000]
-                  px-5
+                  px-4
 
-                  text-[12px]
+                  text-[9px]
                   font-bold
                   leading-none
                   text-[#002E4D]
 
                   transition-colors
                   hover:bg-[#7FD000]
-
-                  sm:h-[42px]
                 "
               >
                 Buy now
               </button>
-
             </div>
 
           </div>
 
-
           
-          {/* RIGHT IMAGE */}
-          
-
           <div
             className="
               relative
-              h-[300px]
+              h-[230px]
               w-full
               shrink-0
               overflow-hidden
 
-              sm:h-[400px]
+              sm:h-[260px]
 
-              lg:h-[533px]
-              lg:w-[673px]
+              lg:h-[277px]
+              lg:w-[280px]
             "
           >
             <img
@@ -199,11 +176,12 @@ export default function Comp10() {
               alt="Fast fibre for all your needs"
               className="
                 absolute
-                inset-0
+                right-0
+                top-0
                 h-full
                 w-full
-                object-cover
-                object-center
+                object-contain
+                object-right
               "
             />
           </div>

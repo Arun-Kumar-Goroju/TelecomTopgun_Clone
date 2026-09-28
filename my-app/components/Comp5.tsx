@@ -1,4 +1,4 @@
-export default function Comp5() {
+export default function Comp6() {
   return (
     <section
       className="
@@ -9,7 +9,7 @@ export default function Comp5() {
         items-center
         justify-center
         gap-[40px]
-        bg-gray-100
+        bg-white
         px-6
         py-10
 
@@ -19,14 +19,15 @@ export default function Comp5() {
         lg:py-0
       "
     >
-      {/* Image - Left */}
+     
       <div
         className="
           flex
           w-full
+          min-w-0
           max-w-[655px]
           justify-center
-          lg:h-[404px]
+          lg:h-[392px]
         "
       >
         <img
@@ -35,23 +36,27 @@ export default function Comp5() {
           className="
             h-auto
             w-full
+            h-[404px]
+            w-[655px]
             max-w-[655px]
             object-contain
             opacity-100
+            rounded-[20px]
+           
 
             lg:h-[404px]
           "
         />
       </div>
 
-      {/* Content - Right */}
+     
       <div
         className="
           flex
           w-full
           max-w-[655px]
           flex-col
-          gap-8
+          gap-[32px]
           py-4
 
           lg:h-[404px]
@@ -62,15 +67,15 @@ export default function Comp5() {
           className="
             w-full
             font-black
-            text-[32px]
-            leading-[40px]
+            text-[20px]
+            leading-[20px]
             text-[#005288]
 
             md:text-[36px]
             md:leading-[44px]
 
-            lg:text-[40px]
-            lg:leading-[48px]
+            lg:text-[20px]
+            lg:leading-[20px]
           "
         >
           What is fibre?
@@ -81,7 +86,7 @@ export default function Comp5() {
             w-full
             font-normal
             text-[14px]
-            leading-[22px]
+            leading-[20px]
             text-[#005288]
 
             lg:text-base
@@ -99,24 +104,25 @@ export default function Comp5() {
           everything you do online.
         </p>
 
-        {/* Buttons */}
         <div
           className="
             flex
             h-[44px]
-            w-full
+            min-w-[160px]
             max-w-[336px]
             flex-row
+            shrink-0
             gap-[16px]
           "
         >
-          <button className="h-[44px] flex-1 rounded-md bg-green-500 text-white">
+          <button className="h-[44px] w-[160px] shrink-0 bg-[#91E200] flex-1 rounded-md  text-[#005288] font-bold">
             Coverage check
           </button>
-
-          <button className="h-[44px] flex-1 rounded-md border border-[#005288] bg-white text-[#005288]">
+          <button className="h-[44px] w-[160px] shrink-0 bg-white flex-1 rounded-md border-1 border-[#0099FF]  text-[#0099FF] font-bold">
             View details
           </button>
+
+          
         </div>
       </div>
     </section>

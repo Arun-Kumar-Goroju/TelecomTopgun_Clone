@@ -1,9 +1,9 @@
 export default function Comp11() {
   return (
-    <section className="w-full bg-white px-4 py-10 sm:px-6 md:px-8 lg:px-10 lg:py-12">
+    <section className="w-full shadow-[0px_4px_12px_0px_#0000001A] bg-white px-4 py-10 sm:px-6 md:px-8 lg:px-10 lg:py-12">
       <div className="mx-auto flex w-full max-w-[1370px] flex-col items-center">
 
-        {/* Heading */}
+        
         <h2
           className="
             mb-6
@@ -23,7 +23,7 @@ export default function Comp11() {
           Want to know a little more?
         </h2>
 
-        {/* Questions */}
+      
         <div
           className="
             flex
@@ -35,7 +35,7 @@ export default function Comp11() {
           "
         >
 
-          {/* Question 1 - Expanded */}
+          
           <div
             className="
               flex
@@ -48,7 +48,7 @@ export default function Comp11() {
               bg-[#F5F5F5]
             "
           >
-            {/* Question */}
+           
             <div
               className="
                 flex
@@ -80,7 +80,7 @@ export default function Comp11() {
                 What is the difference between fibre, 5G and LTE?
               </p>
 
-              {/* Up Chevron */}
+             
               <span className="relative h-[16px] w-[16px] shrink-0">
                 <span
                   className="
@@ -98,7 +98,7 @@ export default function Comp11() {
               </span>
             </div>
 
-            {/* Answer */}
+            
             <div
               className="
                 px-4
@@ -143,7 +143,7 @@ export default function Comp11() {
             </div>
           </div>
 
-          {/* Question 2 - Collapsed */}
+         
           <div
             className="
               flex
@@ -179,7 +179,7 @@ export default function Comp11() {
               How long does installation take?
             </p>
 
-            {/* Down Chevron */}
+            
             <span className="relative h-[16px] w-[16px] shrink-0">
               <span
                 className="
@@ -197,7 +197,7 @@ export default function Comp11() {
             </span>
           </div>
 
-          {/* Question 3 - Collapsed */}
+         
           <div
             className="
               flex
@@ -233,7 +233,7 @@ export default function Comp11() {
               How to configure your router.
             </p>
 
-            {/* Down Chevron */}
+            
             <span className="relative h-[16px] w-[16px] shrink-0">
               <span
                 className="
@@ -252,7 +252,6 @@ export default function Comp11() {
           </div>
         </div>
 
-        {/* More FAQs Button */}
         <button
           type="button"
           className="

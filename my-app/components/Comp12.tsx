@@ -91,9 +91,7 @@ export default function Comp12() {
           xl:py-[32px]
         "
       >
-        {/* =========================================================
-            TOP FOOTER
-        ========================================================= */}
+        
         <div
           className="
             flex
@@ -106,7 +104,7 @@ export default function Comp12() {
             lg:pb-[24px]
           "
         >
-          {/* TELKOM */}
+         
           <div className="w-full">
             <div
               className="
@@ -123,7 +121,7 @@ export default function Comp12() {
             </div>
           </div>
 
-          {/* QUICK LINKS */}
+        
           <div
             className="
               mt-3
@@ -144,7 +142,7 @@ export default function Comp12() {
               lg:gap-x-[18px]
             "
           >
-            {/* Chat to us online */}
+           
             <a
               href="#"
               className="
@@ -164,7 +162,7 @@ export default function Comp12() {
               <span>Chat to us online</span>
             </a>
 
-            {/* Get help */}
+            
             <a
               href="#"
               className="
@@ -177,14 +175,13 @@ export default function Comp12() {
               "
             >
               <img
-                src="/Help.png"
+                src="/help1.png"
                 alt=""
                 className="h-[12px] w-[12px] object-contain"
               />
               <span>Get help</span>
             </a>
-
-            {/* Check coverage */}
+ 
             <a
               href="#"
               className="
@@ -197,14 +194,14 @@ export default function Comp12() {
               "
             >
               <img
-                src="/Coverage.png"
+                src="/Check_Coverage.png"
                 alt=""
                 className="h-[12px] w-[12px] object-contain"
               />
               <span>Check coverage</span>
             </a>
 
-            {/* Find a store */}
+            
             <a
               href="#"
               className="
@@ -224,7 +221,7 @@ export default function Comp12() {
               <span>Find a store</span>
             </a>
 
-            {/* InTouch / Blog */}
+            
             <a
               href="#"
               className="
@@ -237,7 +234,7 @@ export default function Comp12() {
               "
             >
               <img
-                src="/Blog.png"
+                src="/Book-2.png"
                 alt=""
                 className="h-[12px] w-[12px] object-contain"
               />
@@ -246,9 +243,7 @@ export default function Comp12() {
           </div>
         </div>
 
-        {/* =========================================================
-            FOOTER COLUMNS
-        ========================================================= */}
+        
         <div
           className="
             grid
@@ -271,7 +266,7 @@ export default function Comp12() {
               key={column.title}
               className="min-w-0"
             >
-              {/* COLUMN TITLE */}
+              
               <h4
                 className="
                   m-0
@@ -290,7 +285,7 @@ export default function Comp12() {
                 {column.title}
               </h4>
 
-              {/* LINKS */}
+             
               <ul
                 className="
                   m-0
@@ -326,14 +321,10 @@ export default function Comp12() {
           ))}
         </div>
 
-        {/* =========================================================
-            DIVIDER
-        ========================================================= */}
+        
         <div className="w-full border-t border-white/30" />
 
-        {/* =========================================================
-            BOTTOM FOOTER
-        ========================================================= */}
+        
         <div
           className="
             flex
@@ -349,9 +340,9 @@ export default function Comp12() {
             lg:pt-[16px]
           "
         >
-          {/* LEFT */}
+          
           <div className="min-w-0">
-            {/* LEGAL LINKS */}
+            
             <div
               className="
                 flex
@@ -394,7 +385,7 @@ export default function Comp12() {
               </a>
             </div>
 
-            {/* COPYRIGHT */}
+            
             <p
               className="
                 m-0
@@ -412,7 +403,7 @@ export default function Comp12() {
             </p>
           </div>
 
-          {/* RIGHT */}
+          
           <div
             className="
               flex
@@ -422,7 +413,7 @@ export default function Comp12() {
               lg:items-end
             "
           >
-            {/* PAYMENT */}
+            
             <div className="flex items-center gap-2">
               <img
                 src="/VISA.png"
@@ -437,7 +428,7 @@ export default function Comp12() {
               />
             </div>
 
-            {/* SOCIAL */}
+            
             <div className="flex items-center gap-3">
               <a
                 href="#"

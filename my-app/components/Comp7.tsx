@@ -1,9 +1,10 @@
+import {ArrowRight} from "lucide-react";
 export default function Comp7() {
   return (
     <section className="w-full bg-[#F5F5F5] px-6 py-12 sm:px-8 lg:px-10 lg:py-14">
       <div className="mx-auto w-full max-w-[1370px]">
 
-        {/* Heading */}
+        
         <div className="mb-7">
           <h2 className="text-[26px] font-extrabold leading-tight text-[#005288] lg:text-[28px]">
             Our service providers
@@ -15,10 +16,10 @@ export default function Comp7() {
           </p>
         </div>
 
-        {/* Cards */}
+       
         <div className="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-8">
 
-          {/* Card 1 */}
+          
           <div className="flex min-h-[321.6px] w-full flex-col overflow-hidden rounded-lg">
             <div className="h-[140px] w-full shrink-0 bg-white">
               <img
@@ -38,19 +39,19 @@ export default function Comp7() {
                 South Africa’s largest and most established network.
               </p>
 
-              {/* View details */}
+             
               <a
                 href="#"
                 className="mt-auto inline-flex w-fit items-center gap-1 text-xs font-semibold text-[#00AEEF] underline decoration-[#00AEEF] underline-offset-4"
               >
-                <span>View details</span>
-                <span className="text-[15px] leading-none">→</span>
+                <span className = "flex items-center gap-1">Openserve deals <ArrowRight size={18} /></span>
+                <span className="text-[15px] leading-none"></span>
               </a>
             </div>
           </div>
 
 
-          {/* Card 2 */}
+         
           <div className="flex min-h-[321.6px] w-full flex-col overflow-hidden rounded-lg">
             <div className="h-[140px] w-full shrink-0 bg-white">
               <img
@@ -70,19 +71,19 @@ export default function Comp7() {
                 home work, learn, stream, and play.
               </p>
 
-              {/* View details */}
+              
               <a
                 href="#"
                 className="mt-auto inline-flex w-fit items-center gap-1 text-xs font-semibold text-[#00AEEF] underline decoration-[#00AEEF] underline-offset-4"
               >
-                <span>View details</span>
-                <span className="text-[15px] leading-none">→</span>
+                <span className = "flex items-center gap-1">Frogfoot deals <ArrowRight size={18} /></span>
+                <span className="text-[15px] leading-none"></span>
               </a>
             </div>
           </div>
 
 
-          {/* Card 3 */}
+          
           <div className="flex min-h-[321.6px] w-full flex-col overflow-hidden rounded-lg">
             <div className="h-[140px] w-full shrink-0 bg-white">
               <img
@@ -102,13 +103,13 @@ export default function Comp7() {
                 connected to knowledge, entertainment, and more.
               </p>
 
-              {/* View details */}
+             
               <a
                 href="#"
                 className="mt-auto inline-flex w-fit items-center gap-1 text-xs font-semibold text-[#00AEEF] underline decoration-[#00AEEF] underline-offset-4"
               >
-                <span>View details</span>
-                <span className="text-[15px] leading-none">→</span>
+                <span className = "flex items-center gap-1">Vumatel deals <ArrowRight size={18} /></span>
+                <span className="text-[15px] leading-none"></span>
               </a>
             </div>
           </div>
@@ -134,13 +135,13 @@ export default function Comp7() {
                 high-performance, low-latency connectivity.
               </p>
 
-              {/* View details */}
+             
               <a
                 href="#"
                 className="mt-auto inline-flex w-fit items-center gap-1 text-xs font-semibold text-[#00AEEF] underline decoration-[#00AEEF] underline-offset-4"
               >
-                <span>View details</span>
-                <span className="text-[15px] leading-none">→</span>
+                <span className = "flex items-center gap-1 font-bold">MetroFibre deals <ArrowRight size={18} /></span>
+                <span className="text-[15px] leading-none"></span>
               </a>
             </div>
           </div>

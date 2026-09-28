@@ -74,7 +74,7 @@ function Navbar() {
                     <input type="text" placeholder="Find products, services" className="flex-1 px-4 text-sm outline-none placeholder:font-semibold placeholder:text-gray-500 md:px-5 md:text-base" />
 
                     <button className="flex w-14 items-center justify-center rounded bg-blue-400 md:w-16">
-                        <Image src="/Vector.png" alt="Search" height={24} width={24} />
+                        <Image src="/Vector1.png" alt="Search" height={24} width={24} />
                     </button>
 
                 </div>
