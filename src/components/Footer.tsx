@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer className="text-white">
 
-      {/* Top part of footer */}
+    
       <div className="bg-[#008fe0]">
         <div className="mx-auto max-w-[1270px] px-6 py-8">
 
@@ -12,7 +12,7 @@ export default function Footer() {
 
           <div className="mt-5 flex flex-wrap justify-center gap-6 text-sm font-semibold md:justify-start">
 
-  {/* Chat to us online */}
+ 
   <a href="#" className="flex items-center gap-2">
     <img
       src="/images/chat.png"
@@ -22,7 +22,7 @@ export default function Footer() {
     Chat to us online
   </a>
 
-  {/* Get help */}
+
   <a href="#" className="flex items-center gap-2">
     <img
       src="/images/help.png"
@@ -32,7 +32,7 @@ export default function Footer() {
     Get help
   </a>
 
-  {/* Check coverage */}
+
   <a href="#" className="flex items-center gap-2">
     <img
       src="/images/coverage.png"
@@ -42,7 +42,7 @@ export default function Footer() {
     Check coverage
   </a>
 
-  {/* Find a store */}
+ 
   <a href="#" className="flex items-center gap-2">
     <img
       src="/images/store.png"
@@ -52,7 +52,7 @@ export default function Footer() {
     Find a store
   </a>
 
-  {/* InTouchBlog */}
+
   <a href="#" className="flex items-center gap-2">
     <img
       src="/images/blog.png"
@@ -68,13 +68,12 @@ export default function Footer() {
       </div>
 
 
-      {/* Footer Links */}
+    
       <div className="bg-[#0799ed]">
         <div className="mx-auto max-w-[1270px] px-6 py-8">
 
           <div className="grid grid-cols-2 gap-8 md:grid-cols-4 lg:grid-cols-7">
 
-            {/* Telkom Personal */}
             <div>
               <h3 className="text-ms">
                 Telkom Personal
@@ -90,7 +89,6 @@ export default function Footer() {
             </div>
 
 
-            {/* Telkom Business */}
             <div>
               <h3 className="text-ms">
                 Telkom Business
@@ -107,7 +105,6 @@ export default function Footer() {
             </div>
 
 
-            {/* Account */}
             <div>
               <h3 className="text-ms">
                 Account
@@ -120,7 +117,6 @@ export default function Footer() {
             </div>
 
 
-            {/* About us */}
             <div>
               <h3 className="text-ms">
                 About us
@@ -136,7 +132,6 @@ export default function Footer() {
             </div>
 
 
-            {/* Marketplace */}
             <div>
               <h3 className="text-ms">
                 Marketplace
@@ -148,7 +143,6 @@ export default function Footer() {
             </div>
 
 
-            {/* Help and support */}
             <div>
               <h3 className="text-ms">
                 Help & support
@@ -162,7 +156,6 @@ export default function Footer() {
             </div>
 
 
-            {/* Get the right deal */}
             <div>
               <h3 className="text-ms">
                 Get the right deal
@@ -179,7 +172,6 @@ export default function Footer() {
       </div>
 
 
-      {/* Bottom part */}
 <div className="bg-[#0799ed]">
   <div className="mx-auto max-w-[1070px] px-6 py-5">
 
@@ -204,15 +196,12 @@ export default function Footer() {
 
       </div>
 
-      {/* Copyright */}
       <p className="mt-3 text-xs">
         © Telkom SA SOC Limited. 2025 All Rights Reserved.
       </p>
 
-      {/* Payment and Social Images */}
       <div className="mt-5 flex flex-col items-center gap-3 md:items-end">
 
-        {/* Payment Images */}
         <div className="flex items-center gap-2">
 
           <img
@@ -229,7 +218,6 @@ export default function Footer() {
 
         </div>
 
-        {/* Social Images */}
         <div className="flex items-center gap-4">
 
           <img
