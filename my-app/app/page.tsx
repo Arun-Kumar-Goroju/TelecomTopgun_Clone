@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       <Comp1/>
       <Comp2/>
-      <Comp3/>
+      <Comp3/> 
       <Comp4/>
     <Comp5/>
     <Comp6/>

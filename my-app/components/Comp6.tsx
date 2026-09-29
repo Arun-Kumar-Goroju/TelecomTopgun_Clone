@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import data from "../Data.json";
 
 type Voucher = {
@@ -62,14 +62,7 @@ function VoucherCard({
     <div className="flex h-[434px] w-full max-w-[322px] flex-col rounded-[8px] border border-[#d7e0e5] bg-white p-5 shadow-md">
       <div className="flex justify-center pt-2">
         <div className="flex h-[72px] w-[72px] items-center justify-center rounded-full border border-[#b9def5] bg-[#e7f6ff]">
-          <svg
-            width="28" height="28"
-            viewBox="0 0 24 24" fill="none" stroke="#00558c" strokeWidth="1.6"
-          >
-            <rect x="7" y="8" width="10" height="8" rx="1" />
-            <path d="M9 8V6h6v2" />
-            <path d="M10 12h4" />
-          </svg>
+          <Image src="/icons/Coupon.png" alt="coupen" height={40} width={40}/>
         </div>
       </div>
 

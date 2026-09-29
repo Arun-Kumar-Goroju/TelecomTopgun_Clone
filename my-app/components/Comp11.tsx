@@ -5,8 +5,7 @@ import { useState } from "react";
 
 type FooterColumn = {
   title: string;
-  links: string[];
-};
+  links: string[];};
 
 export default function Comp11() {
   const footerColumns: FooterColumn[] = [
@@ -96,10 +95,7 @@ export default function Comp11() {
                   {column.links.map((link) => (
                     <li key={link}>
                       <a href="#" className="text-[11px] text-white transition hover:underline">{link}</a>
-                    </li>
-                  ))}
-                </ul>
-              )}
+                    </li>  ))}</ul>)}
               <ul className="hidden space-y-3 md:block">
                 {column.links.map((link) => (
                   <li key={link}>
@@ -119,8 +115,7 @@ export default function Comp11() {
               <span>|</span>
               <a href="#" className="hover:underline">Terms & Condition</a>
               <span>|</span>
-              <a href="#" className="hover:underline">
-POPIA</a>
+              <a href="#" className="hover:underline">POPIA</a>
               <span>|</span>
               <a href="#" className="hover:underline">Sitemap</a>
             </div>
@@ -133,13 +128,13 @@ POPIA</a>
               <span>VISA</span>
               <span className="flex h-4 w-6 items-center justify-center rounded-full bg-orange-500 text-[7px] font-bold">MC</span>
             </div>
-            <div className="flex items-center gap-3 text-[16px] font-bold">
+  <div className="flex items-center gap-3 text-[16px] font-bold">
               <a href="#" aria-label="LinkedIn">in</a>
-              <a href="#" aria-label="WhatsApp"> ◉</a>
+   <a href="#" aria-label="WhatsApp"> ◉</a>
               <a href="#" aria-label="YouTube">▶</a>
-              <a href="#" aria-label="X">X</a>
+    <a href="#" aria-label="X">X</a>
               <a href="#" aria-label="Facebook">f</a>
-            </div>
+    </div>
           </div>
         </div>
       </div>

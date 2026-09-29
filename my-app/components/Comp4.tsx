@@ -56,7 +56,7 @@ export default function Comp4() {
       </div>
 
       <div className="mt-8 flex justify-center">
-        <button className="w-full rounded bg-[#91E200] p-3 font-bold text-[#003F6A] sm:w-auto">View Starter Products</button>
+        <button className="w-full rounded bg-[#91E200] p-3 font-bold text-[#003F6A] sm:w-auto hover:shadow-md">View Starter Products</button>
       </div>
 
     </div>

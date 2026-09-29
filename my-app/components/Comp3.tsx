@@ -10,13 +10,13 @@ export default function Comp3() {
 
         <div className="mb-11 flex items-start gap-5 rounded-xl bg-[#079bf0] px-5 py-6 text-white md:items-center md:px-7">
           <div className="flex-shrink-0">
-            <div className="relative h-11 w-8">
+      <div className="relative h-11 w-8">
               <div className="absolute left-1 top-0 h-6 w-5 rotate-[8deg] bg-[#7ee000]" />
-              <div className="absolute bottom-0 left-3 h-2 w-2 rounded-full bg-[#00548d]" />
+        <div className="absolute bottom-0 left-3 h-2 w-2 rounded-full bg-[#00548d]" />
             </div>
           </div>
           <div className="min-w-0">
-            <p className="mb-1 text-base font-extrabold">Please note</p>
+        <p className="mb-1 text-base font-extrabold">Please note</p>
             <p className="text-sm font-semibold leading-6">All Consumer customers who are within the Openserve Prepaid Compact-Fibre network coverage qualify. The 20/10Mbps is only available in selected areas with the 50/25Mbps being available in all Openserve fibre areas.</p>
           </div>
         </div>
